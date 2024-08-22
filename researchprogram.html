@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        *{
+            box-sizing: border-box;
+        }
+     .container{
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      cursor: pointer;
+     }
+
+    .child{
+        height: 200px;
+        display: flex;
+        gap: 10px;
+        padding: 5px;
+        flex-shrink: 1;
+        flex-grow: 1;
+        flex-basis: 30%;
+        
+    }
+     .child img {
+        overflow: hidden;
+        width:100%;
+        border-radius: 15px; 
+        transition: transform 1s;
+        
+} 
+      img:hover {
+      transform: scale(1.03); 
+      filter: brightness(80%); 
+      transition: width 2;
+}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="child" id="c1">
+            <img  src="https://10kc-session.github.io/images/images/1st.jpg">
+ 
+        </div>
+        <div class="child" id="c2">
+            <img src="https://10kc-session.github.io/images/images/2nd.jpg">
+
+        </div>
+        <div class="child" id="c3">
+            <img src="https://10kc-session.github.io/images/images/3rd.jpg">
+
+        </div>
+        <div class="child" id="c4">
+            <img src="https://10kc-session.github.io/images/images/4th.jpg">
+
+        </div>
+        <div class="child" id="c5">
+            <img src="https://10kc-session.github.io/images/images/4th.jpg">
+
+        </div>
+        <div class="child" id="c6">
+            <img src="https://10kc-session.github.io/images/images/5th.jpg">
+
+        </div>
+        <div class="child" id="c7">
+            <img src="https://10kc-session.github.io/images/images/7th.jpg">
+
+        </div>
+        <div class="child" id="c8">
+            <img src="https://10kc-session.github.io/images/images/8th.jpg">
+
+        </div>
+        <div class="child" id="c9">
+            <img src="https://10kc-session.github.io/images/images/9th.jpg">
+
+        </div>
+       
+
+    </div>
+    
+</body>
+</html>
